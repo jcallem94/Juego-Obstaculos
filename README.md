@@ -1,2 +1,41 @@
-# Juego-Obstaculos
-Juego de obstaculos
+Juego de Evitar Obstáculos
+Este es un juego simple desarrollado en Python utilizando la biblioteca Pygame. El objetivo del juego es evitar los obstáculos que caen desde la parte superior de la pantalla durante el mayor tiempo posible para obtener la puntuación más alta.
+
+Cómo jugar
+Ejecuta el script main.py para iniciar el juego.
+En el menú de inicio, presiona la tecla ENTER para comenzar a jugar.
+Usa las teclas de flecha izquierda (←) y derecha (→) para mover al jugador y esquivar los obstáculos que caen.
+La velocidad de los obstáculos aumentará progresivamente a medida que pasa el tiempo, lo que hará que el juego sea más difícil.
+El juego termina cuando el jugador colisiona con un obstáculo.
+El puntaje se incrementa en función del tiempo que sobrevive el jugador. ¡Intenta obtener la puntuación más alta!
+Dificultad
+El juego ajusta automáticamente la dificultad para aumentar el desafío a medida que juegas:
+
+La velocidad de los obstáculos aumenta progresivamente, lo que requiere que el jugador reaccione más rápido.
+La velocidad con la que aparecen nuevos obstáculos también se incrementa a medida que aumenta tu puntaje.
+Menú de Inicio y Puntaje Máximo
+El juego cuenta con un menú de inicio donde se muestra el puntaje máximo de la sesión de juego anterior, lo que te motivará a superar tu propio récord.
+
+Game Over
+Cuando el jugador colisiona con un obstáculo, el juego muestra un mensaje de "Game Over" durante un breve periodo de tiempo antes de volver al menú de inicio.
+
+Requisitos
+Para ejecutar el juego, necesitarás tener instalado Python y la biblioteca Pygame en tu sistema.
+
+Instalación
+Clona o descarga este repositorio en tu computadora.
+Asegúrate de tener Python instalado en tu sistema.
+Instala la biblioteca Pygame con el siguiente comando:
+bash
+Copy code
+pip install pygame
+Ejecución
+Una vez que hayas instalado los requisitos, ejecuta el juego con el siguiente comando:
+
+bash
+Copy code
+python main.py
+¡Disfruta del juego y trata de obtener la puntuación más alta!
+
+Créditos
+Este juego fue creado por [Tu Nombre] como parte de un proyecto de desarrollo de juegos en Python.
