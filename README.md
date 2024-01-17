@@ -26,7 +26,7 @@ El juego cuenta con un menú de inicio donde se muestra el puntaje máximo de la
 
 Cuando el jugador colisiona con un obstáculo, el juego muestra un mensaje de "Game Over" durante un breve periodo de tiempo antes de volver al menú de inicio.
 
-## Requisitoshttps://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+## Requisitos
 
 Para ejecutar el juego, necesitarás tener instalado Python y la biblioteca Pygame en tu sistema.
 
